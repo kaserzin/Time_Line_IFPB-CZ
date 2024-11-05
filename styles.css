@@ -10,16 +10,11 @@ nav {
   background-color: #399934;
 }
 
-nav p,
-h2 {
+nav p, h2 {
   color: #eaf4f4;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2, h3, h4, h5, h6 {
   font-family: "Oswald", sans-serif;
   color: #02020a;
   margin-top: 60px;
