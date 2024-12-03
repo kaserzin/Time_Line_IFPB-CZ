@@ -10,11 +10,16 @@ nav {
   background-color: #399934;
 }
 
-nav p, h2 {
+nav p,
+h2 {
   color: #eaf4f4;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Oswald", sans-serif;
   color: #02020a;
   margin-top: 60px;
@@ -66,4 +71,15 @@ p {
   content: "";
   border: 2px solid #399934;
   background: #f6fff8;
+}
+
+.item-linha-tempo {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.item-linha-tempo.fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }
