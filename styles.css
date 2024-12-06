@@ -83,3 +83,30 @@ p {
   opacity: 1;
   transform: translateY(0);
 }
+
+header {
+  background-color: #399934;
+  color: #eaf4f4;
+  padding: 20px 0;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+footer {
+  background-color: #02020a;
+  color: #eaf4f4;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+}
