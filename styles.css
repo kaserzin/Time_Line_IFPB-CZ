@@ -87,24 +87,28 @@ p {
 header {
   background-color: #399934;
   color: #eaf4f4;
-  padding: 20px 0;
+  padding: 40px 0;
   text-align: center;
   font-family: "Oswald", sans-serif;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 20px;
 }
 
 header h1 {
   margin: 0;
-  font-size: 32px;
+  font-size: 36px;
 }
 
 footer {
-  background-color: #02020a;
+  background-color: #399934;
   color: #eaf4f4;
-  padding: 10px 0;
+  padding: 40px 0;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
+  border-radius: 20px 20px 0 0;
   margin-top: 20px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
 
 footer p {
